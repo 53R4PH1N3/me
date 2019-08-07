@@ -1,0 +1,28 @@
+.FA_icons {
+	text-align: center;
+	margin: 30px 0px 30px;
+	i {
+		color: $primary-color2;
+		font-size: 60px;
+		@include transition();
+		@media (max-width: 576px) {
+			font-size: 25px;
+		}
+	}
+}
+
+.FA_frameworks {
+	text-align: center;
+	margin: 30px 0px 30px;
+	i {
+		font-size: 60px;
+		@include transition();
+		@media (max-width: 576px) {
+			font-size: 25px;
+		}
+	}
+	&:hover {
+    color: $primary-color2;
+  }
+}
+
